@@ -3,7 +3,7 @@ REM Author: the-jcksn
 REM Description: Nicolas Cage themed Prank - Renames all files on desktop as "nicholas-cage-1.takeover", incrementing the digit. Then sets background image to nicholas cage breaking through the screen. Can be expanded to remane files in further directories if required.
 REM Target: Windows / Powershell
 REM Version: 1.0
-REM Category: Prank
+REM Category: Prank - DANGEROUS - this script can cause ireppairable damage to files, use with caution.
 
 REM ~~~~~ TO DESTROY FURTHER FILENAMES: Copy everything from line 24 to 29, and paste in the space provided, changing the target directory name.
 REM ~~~~~ CAN RUN SCRIPT 'AS IS' (WITHOUT CHANGES) - Will just attack files on the desktop
